@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Open+Sans&display=swap');
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.share-block {
+  height: 150px;
+}
+
+.add-margin {
+  padding-bottom: 50px;
+}
+
+body {
+  background-color: #eeebdd;
+  font-family: 'Open Sans', sans-serif;
+  color: #575F7D;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1, h2 {
+  color:#dba124;
+  font-family: 'New Tegomin', serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.fab {
+  color: #194350;
+  font-size: 42px;
+}
+
+.fab:hover {
+  color: #9dbeb9;
+  font-size: 52px;
+}
+
+.btn-orange {
+  color: #575F7D;
+  background-color: #ff6701;
+}
+
+.btn-orange:hover {
+  background-color: #ffc288;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  width:32px;
+  max-width:32px;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  align-items: auto;
+}
+
+#img-round {
+  border-radius: 100px;
+  width: 202px;
+  height: auto;
+}
